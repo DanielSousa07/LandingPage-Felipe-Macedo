@@ -1,0 +1,109 @@
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .video-section::before {
+        display: none;
+    }
+    
+    .depoimento-print {
+        transform: rotate(0deg);
+    }
+    
+    .grade {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+    
+    .cartao-imagem-container {
+        height: 200px;
+    }
+    
+    .perfil-card-grande {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .perfil-texto-grande {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .grade {
+        grid-template-columns: 1fr;
+    }
+    
+    .cartao-imagem-container {
+        height: 250px;
+    }
+    
+    .perfil-foto-grande {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .button-do-whatsapp {
+        bottom: 15px;
+        right: 15px;
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+    
+    .button-do-whatsapp img {
+        width: 20px;
+        height: 20px;
+    }
+}
+@media (max-width: 768px) {
+    .grade-cursos {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .grade-cursos {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+    
+    .curso-titulo {
+        font-size: 0.9rem;
+        padding: 10px 5px 5px;
+    }
+}
+@media (max-width: 768px) {
+    .grade-cursos {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .grade-cursos {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+    
+    .curso-titulo {
+        font-size: 0.9rem;
+        padding: 10px 5px 5px;
+    }
+}
+@media (min-width: 768px) {
+    .footer-bottom-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+@media (max-width: 768px) {
+    .promo-button {
+        font-size: 0.8rem;
+        padding: 6px 12px;
+    }
+    
+    .promo-form-modal {
+        padding: 20px;
+    }
+    
+    .promo-form-modal h3 {
+        font-size: 1.2rem;
+    }
+}
