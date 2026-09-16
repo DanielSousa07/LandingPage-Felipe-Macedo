@@ -13,7 +13,7 @@ Uma landing page moderna, responsiva e focada em conversão, desenvolvida para a
 ## 💻 Preview
 
 <div align="center">
-  <img src="./preview.jpg" alt="Demonstração da Landing Page Missão Fluência" width="800px" />
+  <img src="./preview.png" alt="Demonstração da Landing Page Missão Fluência" width="800px" />
 </div>
 
 ## 🛠️ Tecnologias Utilizadas
